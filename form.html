@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<style>
+    ::placeholder{
+        color: white;
+    }
+    body{
+        color: white;
+	background-color: darkblue;
+        /*background-image: url(360_F_332479959_a8r4U2JYX61NCFBFqxTWogxpOz6j0DZR.jpg);*/
+        background-position: center;
+        background-size: cover;
+        min-height: 90vh;
+    }
+    a{
+        color: orangered;
+        text-decoration: none;
+    }
+    .box {
+        text-align: center;
+        /* border-radius: 10px; */
+        margin: auto;
+        backdrop-filter: blur(40px);
+        width: 350px;
+        border-right: 1px solid white;
+        border-left: 1px solid orangered;
+        border-bottom: 1px solid orangered;
+        border-top: 1px solid white;
+        height: 440px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       border-top-right-radius: 50px;
+       border-bottom-left-radius: 50px;
+        
+    }
+
+    input {
+        margin-left: 20px;
+        color: orangered;
+        outline: none;
+        display: flex;
+        font-size: 17px;
+        margin-bottom: 40px;
+        width: 300px;
+        height: 30px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: white;
+        background-color: transparent;
+    }
+    h1{
+        margin-left: 20px;
+        /* margin-top: 90px; */
+        text-align: center;
+        color: orangered;
+        width: 300px;
+        height: 40px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    button{
+        background-color:orangered;
+        border-radius: 10px;
+        height: 40px;
+        width: 300px;
+        border: 0;
+        font-size: 25px;
+        color: white;
+        &:hover{
+            cursor: pointer;
+            background-color: white;
+            color: orangered;
+        }
+    }
+    .copy:hover{
+        cursor: pointer;
+        color: orangered;
+    }
+</style>
+
+<body>
+    <br><br><br><br><br>
+    <div class="box">
+        <form action="">
+            <br>
+            <h1>Login here</h1>
+            <input type="text" placeholder="Enter Email Here..." required>
+            <input type="password" placeholder="Enter Password here..." required>
+            <button>Login</button>
+            <p>Don't have an account?</p>
+            <a href="#">Sign Up</a> here
+            <h4>Log in with</h4>
+            <p class="copy">&copy;heatherfeng</p>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-instagram"></i>
+        </form>
+ 
+    </div>
+</body>
+
+</html>
